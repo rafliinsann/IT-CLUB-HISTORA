@@ -13,15 +13,15 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
 
 <div class="artikel">
     
     <!-- Navbar Start -->
-    <nav class="navbar navbar-header fixed-top navbar-expand-lg mx-4">
+    <nav class="navbar blur navbar-header fixed-top navbar-expand-lg mx-4">
       <div class="container-fluid">
         <a class="navbar-brand text-link" href="#">HISTORA</a>
         <button
@@ -38,24 +38,24 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-link" aria-current="page" href="#"
+              <a class="nav-link text-link opacity-75" aria-current="page" href="#"
                 >BERANDA</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-link" href="#">GALERI</a>
+              <a class="nav-link text-link opacity-75" href="#">GALERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-link" href="#">ARTIKEL</a>
+              <a class="nav-link text-link text-decoration-underline" href="#">ARTIKEL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-link" href="#">TIMELINE</a>
+              <a class="nav-link text-link opacity-75" href="#">TIMELINE</a>
             </li>
           </ul>
           <div class="navbar-text text-link d-flex gap-3">
             <button class="write gap-1">
-              <img src="./assets/icon/Vector-write.png" class="" alt="" />
-              <p class="text-write">write</p>
+              <img src="../assets/icon/Vector-write.png" width="19" class="" alt="" />
+              <p class="text-write fw-light">Write</p>
             </button>
             <button class="ButtonSign">Sign in</button>
           </div>
@@ -65,15 +65,22 @@
     <!-- Navbar End -->
 
     <!-- Filter Start -->
-    <div class="container">
+    <div class="container margin-bottom-navbar">
       <div class="row row-cols-auto">
         <div class="col">
-          <img src="../assets/img/img-artikel/filter-vector.png" alt="" width="20" height="16">
+          <ul class="nav nav-underline">
+            <li>
+              <a href=""><img src="../assets/img/img-artikel/filter-vector.png" class="mt-3" alt="" width="20" height="16"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-color fw-normal" aria-current="page" href="#">Populer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-color" href="#">Terbaru</a>
+            </li>
+            </li>
+          </ul>
         </div>
-        <div class="col">
-          <p><u>Populer</u></p>
-        </div>
-        <div class="col">Terbaru</div>
       </div>
     </div>
     <!-- Filter End -->
@@ -106,7 +113,7 @@
               <p class="uk-font mt-1 fw-light">99.8k</p>
             </div>
             <div class="col">
-              <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+              <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
             </div>
             <div class="col">
               <p class="uk-font mt-1 fw-light">8</p>
@@ -149,7 +156,7 @@
                 <p class="uk-font mt-1 fw-light">12.4k</p>
               </div>
               <div class="col">
-                <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+                <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
               </div>
               <div class="col">
                 <p class="uk-font mt-1 fw-light">5</p>
@@ -187,7 +194,7 @@
               <p class="uk-font mt-1 fw-light">19k</p>
             </div>
             <div class="col">
-              <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+              <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
             </div>
             <div class="col">
               <p class="uk-font mt-1 fw-light">18</p>
@@ -229,7 +236,7 @@
                 <p class="uk-font mt-1 fw-light">12.4k</p>
               </div>
               <div class="col">
-                <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+                <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
               </div>
               <div class="col">
                 <p class="uk-font mt-1 fw-light">5</p>
@@ -266,7 +273,7 @@
               <p class="uk-font mt-1 fw-light">204</p>
             </div>
             <div class="col">
-              <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+              <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
             </div>
             <div class="col">
               <p class="uk-font mt-1 fw-light">18</p>
